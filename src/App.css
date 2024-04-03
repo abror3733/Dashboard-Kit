@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #F7F8FC;
+  overflow: hidden;
+}
+.active{
+  color: #DDE2FF;
+  background-color: #3E4049;
+}
+.active::before{
+  content: " ";
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  background-color: #DDE2FF;
+  left: 0;
+}
